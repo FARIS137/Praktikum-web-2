@@ -84,14 +84,11 @@ $jumlah_beli = $_POST['jumlah'];
 
 // MENGHITUNG TOTAL BELANJA MENGGUNAKAN IF ELSE
 if ($produk_pilihan == "Televisi") {
-    $harga_tv = 4200000;
-    $total_belanja = $jumlah_beli * $harga_tv;
+    $total_belanja = $jumlah_beli * 4200000;
 } elseif ($produk_pilihan == "Kulkas") {
-    $harga_kulkas = 3100000;
-    $total_belanja = $jumlah_beli * $harga_kulkas;
+    $total_belanja = $jumlah_beli * 3100000;
 } elseif ($produk_pilihan == "Mesin Cuci" ) {
-    $harga_mesincuci = 3800000;
-    $total_belanja = $jumlah_beli * $harga_mesincuci;
+    $total_belanja = $jumlah_beli * 3800000;
 } else {
     $total_belanja = 0;
 }
@@ -100,16 +97,13 @@ if ($produk_pilihan == "Televisi") {
 // $total_belanja = "";
 // switch ($produk_pilihan) {
 //     case 'Televisi':
-//         $harga_tv = 4200000;
-//         $total_belanja = $jumlah_beli * $harga_tv;
+//         $total_belanja = $jumlah_beli * 4200000;
 //         break;
 //     case 'Kulkas':
-//         $harga_kulkas = 3100000;
-//         $total_belanja = $jumlah_beli * $harga_kulkas;
+//         $total_belanja = $jumlah_beli * 3100000;
 //         break;
 //     case 'Mesin Cuci':
-//         $harga_mesincuci = 3800000;
-//         $total_belanja = $jumlah_beli * $harga_mesincuci;
+//         $total_belanja = $jumlah_beli * 3800000;
 //         break;
     
 //     default:
