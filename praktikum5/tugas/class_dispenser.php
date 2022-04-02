@@ -3,7 +3,8 @@ class Dispenser{
     public $volumeGalon;
     public $volumeGelas;
     public $ambil;
-    public $sisaAir;
+    public $ambil;
+    public $harga;
 
     public function __construct($volumeGalon, $volumeGelas, $ambil, $harga){
       $this->volumeGalon = $volumeGalon;
